@@ -45,7 +45,7 @@ nav {
 }
 
 .inicial {
-    background-color: rgb(0, 0, 0);
+       background-image: linear-gradient(to bottom, #000000, #001aff);
     color: rgb(255, 255, 255);
     font-size: 30px;
     text-align: center;
@@ -65,11 +65,15 @@ img {
 }
 
 .sobre {
-    background-color: rgb(0, 38, 255);
-    color: rgb(255, 211, 14);
+    background-image: linear-gradient(to top, #3e51ff, #001aff);
     font-size: 30px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 800px;
+    height: 970px;
     padding: 100px;
+}
+
+.titulo-filme {
+    font-weight: bold;
+
 }
