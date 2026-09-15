@@ -36,6 +36,11 @@ nav {
     gap: 50px;
 }
 
+.links:hover {
+  background-color: green;
+  
+}
+
 .titulo {
     font-weight: bold;
 }
@@ -45,7 +50,7 @@ nav {
 }
 
 .inicial {
-       background-image: linear-gradient(to bottom, #000000, #001aff);
+    background-image: linear-gradient(to bottom, #000000, #001aff);
     color: rgb(255, 255, 255);
     font-size: 30px;
     text-align: center;
@@ -57,23 +62,49 @@ nav {
 
 p {
     padding: 10px;
-
+color: white;
 }
 
 img {
     padding: 10px;
 }
 
-.sobre {
-    background-image: linear-gradient(to top, #3e51ff, #001aff);
-    font-size: 30px;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 970px;
-    padding: 100px;
-}
-
 .titulo-filme {
     font-weight: bold;
 
+}
+
+
+.inicial2 {
+    background-color: #001aff;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 300px;
+    justify-content: center;
+}
+
+.titulo-cd {
+
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 800px;
+    padding: 100px;
+
+}
+
+.display-flex-cd {
+    display: flex;
+    background-image: linear-gradient(to top, #ffffff, #001aff);
+}
+
+.conteudo-cd {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 800px;
+    padding: 100px;
+color: white;
 }
