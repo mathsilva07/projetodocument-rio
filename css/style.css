@@ -133,3 +133,13 @@ img {
     flex: 1;
     text-align: left;
 }
+/* Add Luis */
+
+.display-flex-cd {
+    display: flex;
+}
+
+.conteudo-CD{
+    font-size: 25px;
+    padding: 33px 20px 0px 20px;
+}
