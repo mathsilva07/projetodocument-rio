@@ -36,10 +36,7 @@ nav {
     gap: 50px;
 }
 
-.links:hover {
-  background-color: green;
-  
-}
+
 
 .titulo {
     font-weight: bold;
@@ -58,15 +55,19 @@ nav {
     height: 800px;
     padding: 100px;
     justify-content: center;
+    /* Em vez de height fixo, usamos padding para dar volume à seção */
+  
 }
 
 p {
     padding: 10px;
-color: white;
+    color: rgb(0, 0, 0);
+
 }
 
 img {
     padding: 10px;
+
 }
 
 .titulo-filme {
@@ -85,26 +86,50 @@ img {
     justify-content: center;
 }
 
-.titulo-cd {
-
-    font-size: 30px;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 800px;
-    padding: 100px;
-
-}
-
-.display-flex-cd {
-    display: flex;
+#sobre {
     background-image: linear-gradient(to top, #ffffff, #001aff);
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    /* Espaçamento entre os cards de cada filme */
 }
 
-.conteudo-cd {
-    font-size: 30px;
-    text-align: center;
+.card-filme {
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.titulo-filme {
+    font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 800px;
-    padding: 100px;
-color: white;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.conteudo-filme {
+    display: flex;
+    /* Coloca a imagem e a descrição lado a lado */
+    align-items: center;
+    /* Alinha no centro verticalmente */
+    justify-content: center;
+    gap: 30px;
+   
+}
+
+.poster-filme {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.descricao-filme {
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    flex: 1;
+    text-align: left;
 }
