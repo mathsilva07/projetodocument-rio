@@ -1,0 +1,37 @@
+body {
+    background-image: url(https://aventurasnahistoria.com.br/wp-content/uploads/entretenimento/cinema_brasileiro.jpg);
+}
+
+.curiosidades {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px 30px;
+    border-radius: 8px;
+    margin-top: 40px;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-left: 5px solid #2e09e5;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+    padding: 10px;
+}
+
+.li-cs {
+    font-size: 20px;
+}
+
+.titulo-filme {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.video-jackson{
+    background-color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    text-align: center;
+    height: 800px;
+    border-radius: 20px;
+    padding: 20px;
+}

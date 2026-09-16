@@ -1,0 +1,31 @@
+body {
+    background-image: url(https://aventurasnahistoria.com.br/wp-content/uploads/entretenimento/cinema_brasileiro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fotos p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+}
+
+img {
+    display: inline-block;
+    margin: 40px 40px 40px;
+
+
+}
+
+.fundo-filme {
+    background-color: black;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
