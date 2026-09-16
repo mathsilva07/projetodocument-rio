@@ -1,0 +1,34 @@
+/* 1. Esconde a barra de rolagem horizontal e define o tamanho do carrossel */
+.carrossel-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: #cec7e2; /* Cor de fundo opcional */
+    padding: 20px 0;
+    display: flex;
+}
+
+/* 2. Cria a linha infinita colocando as fotos lado a lado */
+.carrossel-track {
+    display: flex;
+    width: max-content; /* Força a barra a ter o tamanho de todas as fotos juntas */
+    gap: 20px;   
+    animation: deslizar 30s linear infinite; /* 30 segundos para dar a volta completa */
+}
+
+/* 3. Força todas as fotos a terem exatamente o mesmo tamanho */
+.carrossel-track img {
+    width: 250px;       
+    height: 400px;     
+    object-fit: cover;  /* Corta a imagem proporcionalmente sem distorcer */
+    border-radius: 8px; 
+}
+
+/* 4. A animação que faz mover.*/
+@keyframes deslizar {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
