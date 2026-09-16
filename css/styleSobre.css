@@ -2,9 +2,9 @@
     margin: 10px;
     font-family: 'Poppins', sans-serif;
 
-    background-image:
+    background:
         linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-        url("imgLuis/bckCD.webp");
+        url("../imgLuis/bckAC.webp");
         
     min-height: 100vh;
     background-size: cover;
@@ -18,7 +18,7 @@
     font-family: 'Poppins', sans-serif;
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-        url("imgLuis/bckCB.webp");
+        url("../imgLuis/bckCB.webp");
         border-radius: 20px;
     min-height: 100vh;
     background-size: cover;
@@ -33,7 +33,7 @@
     font-family: 'Poppins', sans-serif;
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-        url("imgLuis/bckTL.jpg");
+        url("../imgLuis/bckTL.jpg");
         border-radius: 20px;
     min-height: 100vh;
     background-size: cover;
@@ -48,7 +48,7 @@
     font-family: 'Poppins', sans-serif;
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-        url("imgLuis/bckAC.webp");
+        url("../imgLuis/bckTL.jpg");
         border-radius: 20px;
     min-height: 100vh;
     background-size: cover;
@@ -56,7 +56,7 @@
     background-repeat: no-repeat;
     color: white;
 
-
+    
 }
 .tituloh1{
     font-size: 30px;
