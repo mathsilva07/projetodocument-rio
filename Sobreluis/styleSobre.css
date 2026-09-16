@@ -1,0 +1,27 @@
+body {
+    max-width:1200px;
+    margin: auto;
+}
+
+
+.menuflx{
+    display: flex;
+}
+
+.descricaoCD {
+    border: solid 1px black;
+    width: 900px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.avaliacao {
+    margin-bottom: 100px;
+}
+
+video {
+    margin-top: 20px;
+    width: 1200px;
+    height: 500px;
+    object-fit: cover;
+}
