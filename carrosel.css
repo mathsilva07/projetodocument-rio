@@ -5,6 +5,7 @@
     background-color: #cec7e2; /* Cor de fundo opcional */
     padding: 20px 0;
     display: flex;
+    margin-top: 80px;
 }
 
 /* 2. Cria a linha infinita colocando as fotos lado a lado */
