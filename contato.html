@@ -1,37 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="carossel.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-    <!-- O container principal que esconde o que passa dos limites da tela -->
-<div class="carrossel-container">
-  <!-- A faixa comprida que vai deslizar real -->
-  <div class="carrossel-track">
-    
-    <img src="src/eu.jpg" alt="Foto 1">
-    <img src="src/eu.jpg" alt="Foto 2">
-    <img src="src/eu.jpg" alt="Foto 3">
-    <img src="src/eu.jpg" alt="Foto 4">
-    <img src="src/eu.jpg" alt="Foto 5">
+  
+  <section id="contato" class="conta-secao">
+    <h2>Entre em contato</h2>
+    <p>Quer saber mais sobre o cinema BrasileirO? Mande uma mensagem para nós! </p>
 
+    <form class="contato-form">
+      <label for="nome">Seu nome</label>
+      <input type="nome" id="nome" name="nome" placeholder="dIGIte seu nome" required>
 
-    <img src="src/eu.jpg" alt="Foto 1">
-    <img src="src/eu.jpg" alt="Foto 2">
-    <img src="src/eu.jpg" alt="Foto 3">
-    <img src="src/eu.jpg" alt="Foto 4">
-    <img src="src/eu.jpg" alt="Foto 5">
-    <img src="src/eu.jpg" alt="Foto 6">
-    
-  </div>
-</div>
+      <label for="email">Difite seu e-mail</label>
+      <input type="email" id="email" name="email" placeholder="Digite seu email" required>
 
+      <label for="mensagem">Digite sua mensagem</label>
+      <textarea name="mensagem" id="mensagem" rows="4" placeholder="Escreva sua mensagem aqui" required></textarea>
+
+      <button type="submit">Enviar Mensagem</button>
+    </form>
+  </section>
 </body>
 </html>
-
-
 
  
