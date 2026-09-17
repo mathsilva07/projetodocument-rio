@@ -8,7 +8,7 @@ body{
 .carrossel-container {
     width: 100%;
     overflow: hidden;
-    background-color: #cec7e2; /* Cor de fundo opcional */
+    background-color: #cec7e2;
     padding: 20px 0;
     display: flex;
     margin-top: 80px;
@@ -17,7 +17,7 @@ body{
 /* cria a linha infinita colocando as fotos lado a lado */
 .carrossel-track {
     display: flex;
-    width: max-content; /* Força a barra a ter o tamanho de todas as fotos juntas */
+    width: max-content; /* força a barra a ter o tamanho de todas as fotos juntas */
     gap: 20px;   
     animation: deslizar 30s linear infinite; /* 30 segundos para dar a volta completa */
 }
@@ -31,7 +31,7 @@ body{
 .carrossel-track img {
     width: 250px;       
     height: 400px;     
-    object-fit: cover;  /* Corta a imagem proporcionalmente sem distorcer */
+    object-fit: cover;  /* corta a imagem proporcionalmente sem distorcer */
     border-radius: 8px; 
 }
 
