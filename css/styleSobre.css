@@ -64,14 +64,14 @@ body {
 }
 
 .menu{
-    background-color: rgb(156, 202, 146);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../imgLuis/bckCD.webp");
 }
 .menu2{
-      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../imgLuis/bckAC.webp");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../imgLuis/bckCB.webp");
 }
 
 .menu3{
-      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../imgLuis/bckAC.webp");
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../imgLuis/bckTL.jpg");
 }
 
 .menu4{
