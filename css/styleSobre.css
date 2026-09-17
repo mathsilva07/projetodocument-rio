@@ -1,62 +1,28 @@
-.menu {
-    margin: 10px;
-    font-family: 'Poppins', sans-serif;
+.menu, .menu2, .menu3, .menu4{
 
-    background:
-        linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-        url("../imgLuis/bckAC.webp");
-        
+    margin: 50px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
     min-height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 20px;
     color: white;
 }
-.menu2 {
-    margin: 10px;
-    font-family: 'Poppins', sans-serif;
-    background-image:
-        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-        url("../imgLuis/bckCB.webp");
-        border-radius: 20px;
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
 
+.menu{
+    background-color: rgb(156, 202, 146);
+}
+.menu2{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../imgLuis/bckAC.webp");
 }
 
 .menu3{
-    margin: 10px;
-    font-family: 'Poppins', sans-serif;
-    background-image:
-        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-        url("../imgLuis/bckTL.jpg");
-        border-radius: 20px;
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
-
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../imgLuis/bckAC.webp");
 }
 
 .menu4{
-    margin: 10px;
-    font-family: 'Poppins', sans-serif;
-    background-image:
-        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-        url("../imgLuis/bckTL.jpg");
-        border-radius: 20px;
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
-
-    
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../imgLuis/bckAC.webp");
 }
 .tituloh1{
     font-size: 30px;
@@ -77,7 +43,7 @@
 }
 
 video {
-    height: 500px;
+    height: 700px;
     object-fit: cover;
     display: block;
     margin: 0 auto;
