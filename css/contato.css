@@ -1,0 +1,105 @@
+/* =========================================
+   ESTILIZAÇÃO DO RODAPÉ E CONTATO
+   ========================================= */
+
+#contato.conta-secao {
+    background-color: #0b1013; /* Mantém o fundo escuro padrão do site */
+    padding: 80px 20px 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza todo o conteúdo no meio da tela */
+    text-align: center;
+    color: #ffffff;
+    border-top: 1px solid #1a2228; /* Uma linha sutil separando o final da página */
+}
+
+/* Título "Entre em contato" */
+#contato h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+/* Subtítulo do rodapé */
+#contato p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #a0a0a0;
+    margin-bottom: 40px;
+}
+
+/* =========================================
+   ESTILIZAÇÃO DO FORMULÁRIO
+   ========================================= */
+
+.contato-form {
+    width: 100%;
+    max-width: 550px; /* Limita a largura para o formulário não ficar gigante */
+    background-color: #141a1f; /* Caixa de fundo escura e sofisticada */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaçamento automático e limpo entre os elementos */
+    text-align: left; /* Alinha os rótulos à esquerda dentro da caixa */
+    border-left: 5px solid #009c3b; /* Detalhe verde brasileiro elegante na lateral */
+}
+
+/* Rótulos (Labels) dos inputs */
+.contato-form label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #e5e5e5;
+    margin-top: 5px;
+}
+
+/* Caixas de texto (Inputs e Textarea) */
+.contato-form input,
+.contato-form textarea {
+    width: 100%;
+    padding: 14px 16px;
+    background-color: #0b1013; /* Fundo interno escuro */
+    border: 1px solid #2a343d;   /* Borda sutil */
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    box-sizing: border-box; /* Garante que o padding não quebre o tamanho */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito quando a pessoa clica para digitar (Focus) */
+.contato-form input:focus,
+.contato-form textarea:focus {
+    outline: none;
+    border-color: #ffdf00; /* Borda fica Amarelo Ouro ao focar */
+    box-shadow: 0 0 8px rgba(255, 223, 0, 0.3);
+}
+
+/* Botão de Enviar Mensagem */
+.contato-form button[type="submit"] {
+    margin-top: 15px;
+    padding: 15px;
+    background: linear-gradient(135deg, #009c3b, #007a2e); /* Gradiente verde profissional */
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito ao passar o mouse no botão */
+.contato-form button[type="submit"]:hover {
+    background: linear-gradient(135deg, #00b343, #009c3b);
+    transform: translateY(-2px); /* Dá um leve salto para cima */
+    box-shadow: 0 5px 15px rgba(0, 156, 59, 0.4);
+}

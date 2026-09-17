@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="css/styleSobre.css">
     <link rel="stylesheet" href="css/carrosel.css">
     <link rel="stylesheet" href="css/styleSobre.css">
-    <link rel="stylesheet" href="galeria.html">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="css/curiosidades.css">
+    <link rel="stylesheet" href="css/contato.css">
 </head>
 
 <body>
 
     <header>
-        <nav>
+        <nav class="navbar">
             <div class="titulo"> A Importância do Cinema Brasilero</div>
             <div class="links">
                 <a href="#home">Home</a>
@@ -29,7 +30,7 @@
 
     <!--section home -->
     <section id="home">
-        <h2 class="subtitulo-galeria">Galeria de Filmes Brasileiros</h2>
+
 
         <div class="carrosel-container">
             <div class="carrossel-track">
@@ -326,6 +327,29 @@
                 <li class="li-cs">TV Globo em 1999, e só depois foi editado como longa-metragem para o cinema.</li>
             </ul>
         </div>
+
+        <br>
+
+        <ul class="li-ul"><strong class="titulo-filme">Tropa de Elite</strong>
+            <br>
+
+            <li class="li-cs">Na história original, Neto e Matias eram os protagonistas, e o Capitão Nascimento seria
+                secundário. Após ver as gravações, o diretor José Padilha decidiu usar a voz de Wagner Moura em off e
+                dar o protagonismo ao capitão.</li>
+            <br>
+            <li class="li-cs"> O personagem André Matias foi baseado no roteirista André Batista, enquanto Nascimento
+                foi inspirado em Rodrigo Pimentel, ex-capitão do BOPE e coautor do livro Elite da Tropa.</li>
+            <br>
+            <li class="li-cs">Durante a preparação pesada com integrantes reais do BOPE, Wagner Moura acabou quebrando o
+                nariz de um dos policiais após uma provocação</li>
+            <br>
+            <li class="li-cs">Em novembro de 2006, criminosos interceptaram a produção no Morro do Chapéu Mangueira e
+                roubaram cerca de 90 armas, incluindo réplicas e armas de festim. As filmagens precisaram ser
+                paralisadas temporariamente.</li>
+        </ul>
+        </div>
+
+        <br>
         <div class="video-jackson">
             <h2>Cinema Brasileiro: Entre o Preconceito e a Arte</h2>
             <video src="videos/jackson.mp4" type="video/mp4" controls width="80%"></video>
@@ -334,14 +358,14 @@
 
     </section>
 
-    <!--rodape Contato-->
+
     <footer id="contato" class="conta-secao">
         <h2>Entre em contato</h2>
-        <p>Quer saber mais sobre o cinema BrasileirO? Mande uma mensagem para nós! </p>
+        <p>Quer saber mais sobre o cinema Brasileiro? Mande uma mensagem para nós! </p>
 
         <form class="contato-form">
             <label for="nome">Seu nome</label>
-            <input type="nome" id="nome" name="nome" placeholder="dIGIte seu nome" required>
+            <input type="nome" id="nome" name="nome" placeholder="Digite seu nome" required>
 
             <label for="email">Difite seu e-mail</label>
             <input type="email" id="email" name="email" placeholder="Digite seu email" required>
@@ -349,6 +373,9 @@
             <label for="mensagem">Digite sua mensagem</label>
             <textarea name="mensagem" id="mensagem" rows="4" placeholder="Escreva sua mensagem aqui"
                 required></textarea>
+
+            <label for="linkedin">Link do LinkedIn</label>
+            <input type="url" id="linkedin" name="linkedin" placeholder="https://linkedin.com/in/seu-perfil" required>
 
             <button type="submit">Enviar Mensagem</button>
         </form>

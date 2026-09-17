@@ -1,20 +1,15 @@
-body {
-    background-image: url(https://aventurasnahistoria.com.br/wp-content/uploads/entretenimento/cinema_brasileiro.jpg);
-}
+
 
 .curiosidades {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #f9f9f9;
-    padding: 20px 30px;
-    border-radius: 8px;
-    margin-top: 40px;
-    background-color: #ffffff;
-    margin-bottom: 15px;
-    padding: 15px;
-    border-left: 5px solid #2e09e5;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    line-height: 1.6;
-    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    text-align: left;
+    margin-bottom: 40px;
+    color: #ffffff;
+    font-weight: 700;
+  
+    display: inline-block;
+    padding-bottom: 10px;
 }
 
 .li-cs {
@@ -22,16 +17,21 @@ body {
 }
 
 .titulo-filme {
-    font-size: 32px;
-    font-weight: bold;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #ffdf00;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
 }
 
 .video-jackson{
-    background-color: #ffffff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: auto;
+margin-top: 60px;
     text-align: center;
-    height: 800px;
-    border-radius: 20px;
-    padding: 20px;
+    background-color: #141a1f;
+    padding: 40px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
 }
