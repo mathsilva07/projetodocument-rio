@@ -1,4 +1,10 @@
-/*. Esconde a barra de rolagem horizontal e define o tamanho do carrossel */
+body{
+    width: 100%;
+    overflow-x: hidden; /*remove a barra de rolagam */
+    margin: 0;
+    padding: 0;
+}
+/*. esconde a barra de rolagem horizontal e define o tamanho do carrossel */
 .carrossel-container {
     width: 100%;
     overflow: hidden;
@@ -8,7 +14,7 @@
     margin-top: 80px;
 }
 
-/*. Cria a linha infinita colocando as fotos lado a lado */
+/* cria a linha infinita colocando as fotos lado a lado */
 .carrossel-track {
     display: flex;
     width: max-content; /* Força a barra a ter o tamanho de todas as fotos juntas */
@@ -16,7 +22,12 @@
     animation: deslizar 30s linear infinite; /* 30 segundos para dar a volta completa */
 }
 
-/*. Força todas as fotos a terem exatamente o mesmo tamanho */
+.carrossel-track:hover {
+    animation-play-state: paused;
+}
+
+
+/*. forca todas as fotos a terem exatamente o mesmo tamanho */
 .carrossel-track img {
     width: 250px;       
     height: 400px;     
@@ -24,7 +35,7 @@
     border-radius: 8px; 
 }
 
-/*. A animação que faz mover.*/
+/*. c animação que faz mover.*/
 @keyframes deslizar {
     0% {
         transform: translateX(0);
